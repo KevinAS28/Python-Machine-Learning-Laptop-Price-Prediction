@@ -95,8 +95,8 @@ def secondAlgorithm():
     
     #the rest of non-match percentage, will be done with firstAlgorithm
     return (float(most_significant["Price_euros"])+ firstAlgorithm(key_to_seek))/2
-def thirdAlgorithm():
-    #this will search the price of component
+def thirdAlgorithm(lName):
+    
     pass
 #print(secondAlgorithm())
 print(firstAlgorithm(listName))
